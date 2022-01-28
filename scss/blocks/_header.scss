@@ -1,0 +1,269 @@
+header{
+    position: relative;
+}
+
+.header-top{
+    display:flex;
+    align-items: center;
+    list-style-type: none;
+    margin-left: auto;
+    padding: 12px 0 9px 0;
+}
+
+.header-top__list{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-top__link{
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-family: "Futura PT";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+    margin-left: 258px;
+    text-decoration: none;
+    color: #333333;
+
+    &::before{
+        content: "";
+        position: absolute;
+        background-image: url("../images/house.svg");  
+        background-repeat: no-repeat;
+        width: 14px;
+        height: 13px;
+        top:3px;
+        left:-24px;    
+    }
+
+}
+
+.header-top__item + .header-top__item{
+    margin-left: 22px;
+    text-decoration: none;
+}
+
+.header-top__tel{
+    position: relative;
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: none;
+    color: #333333;
+    transition: 0.5s;
+
+    &::before{
+        content:"";
+        position: absolute;
+        background-image: url("../images/Ellipse.svg");
+        background-repeat: no-repeat;
+        top: 7px;
+        left: -13px;
+        width: 4px;
+        height: 4px;
+    }
+
+    &:hover{
+        color:#FFBD54;
+    }
+
+    &:active{
+        opacity: 0.6;;
+    }
+}
+
+.header-top__tell{
+    position: relative;
+    margin-left: 128px;
+    font-family: "Futura PT";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: none;
+    color: #333333;
+    transition: 0.5s;
+
+    &::before{
+        content: "";
+        position: absolute;
+        background-image: url("../images/phone.svg");
+        background-repeat: no-repeat;
+        top: 2px;
+        left: -20px;
+        width: 13px;
+        height: 13px;
+    }
+
+    &:hover{
+        color:#FFBD54;
+    }
+
+    &:active{
+        opacity: 0.6;;
+    }
+
+}
+.header-top__date{
+    display: flex;
+    margin-left: auto;
+}
+
+.header-top__timee{
+    display: flex;
+    position: relative;
+    align-items: center;
+    font-family: "Futura PT";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333333;
+
+    &::before{
+        content: "";
+        position: absolute;
+        background-image: url("../images/Group.svg");
+        background-repeat: no-repeat;
+        top: 3px;
+        left: -24px;
+        width: 14px;
+        height: 14px;
+    }
+}
+
+.header-top__time{
+    display: flex;
+    align-items: center;
+    margin-left: 17px;
+    font-family: "Futura PT";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333333;
+}
+
+.header-bottom{
+    background-color:#FFFFFF;
+}
+
+.header-bottom__box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-bottom__img{
+    position: absolute;
+    top: 24px;
+
+    &:hover{
+        opacity: 0.8;
+    }
+
+    &:active{
+        opacity: 0.6;
+    }
+}
+
+.header-bottom__list{
+    display: flex;
+    list-style: none;
+    margin: 0 0 0 148px;
+    padding: 20px 0 20px 0;
+}
+
+.header-bottom__litem + .header-bottom__litem{
+    margin-left: 55px;
+}
+
+.header-bottom__linkk{
+    position: relative;
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+    text-decoration: none;
+    transition: 0.5s;
+    border-bottom: 3px solid transparent;
+
+    &::before{
+        content:"";
+        position: absolute;
+        background-image: url("../images/active.svg");
+        background-repeat: no-repeat;
+        top: 0;
+        left: -28px;
+        width: 20px;
+        height: 15px;
+    }
+
+    &:hover{
+        border-bottom: 3px solid#FFBD54;
+    }
+
+    &:active{
+        opacity: 0.6;
+    }
+} 
+
+.header-bottom__link{
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+    text-decoration: none;
+    transition: 0.5s;
+    border-bottom: 3px solid transparent;
+
+    &:hover{
+        border-bottom: 3px solid#FFBD54;
+    }
+
+    &:active{
+        opacity: 0.6;
+    }
+}
+
+.header-bottom__quastion{
+    position: relative;
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: right;
+    text-decoration: none;
+    color: #333333;
+    transition: 0.5s;
+    border-bottom: 3px solid transparent;
+
+    &::before{
+        content: "";
+        position: absolute;
+        background-image: url("../images/pet.svg");
+        background-repeat: no-repeat;
+        top: -3px;
+        left: -33px;
+        width: 24px;
+        height: 25px;
+    }
+
+    &:hover{
+        border-bottom: 3px solid#FFBD54;
+    }
+
+    &:active{
+        opacity: 0.6;
+    }
+}
+

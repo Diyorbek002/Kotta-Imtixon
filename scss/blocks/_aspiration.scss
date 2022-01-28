@@ -1,0 +1,77 @@
+
+
+.aspiration__box{
+    position: relative;
+    width: 753px;
+    margin: 0 auto;
+    padding-bottom: 191px;
+    text-align: center;
+
+    &::before{
+        content: "";
+        position: absolute;
+        background-image: url("../images/qowtirno.svg");
+        background-repeat: no-repeat;
+        top: -40px;
+        left: -88px;
+        width: 142px;
+        height: 148px;
+    }
+
+    &::after{
+        content: "";
+        position: absolute;
+        background-image: url("../images/qowtirno1.svg");
+        background-repeat: no-repeat;
+        top: 35px;
+        right: -185px;
+        width: 142px;
+        height: 148px;
+    }
+}
+
+.aspiration__title{
+    position: relative;
+    margin:0 0 70px 0;
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #949494;
+
+    &::before{
+        content: "";
+        position: absolute;
+        background-image: url("../images/Line.svg");
+        background-repeat: no-repeat;
+        top: -43px;
+        left: 270px;
+        width: 140px;
+        height: 1px;
+    }
+
+    &::after{
+        content: "";
+        position: absolute;
+        background-image: url("../images/Line.svg");
+        background-repeat: no-repeat;
+        top: 114px;
+        left: 270px;
+        width: 140px;
+        height: 1px;
+    }
+}
+
+.aspiration__subtitle{
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    color: #333333;
+}
